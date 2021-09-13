@@ -1,0 +1,13 @@
+package anonymous;
+
+public class A {
+	/*
+	 * class without any name is know as anonymous class
+	 */
+	public static void main(String[] args) {
+A a1 =new A() {
+	int i=10;
+};
+	}
+
+}

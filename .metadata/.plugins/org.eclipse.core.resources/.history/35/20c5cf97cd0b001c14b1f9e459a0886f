@@ -1,0 +1,22 @@
+package collectionsexp;
+
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class B {
+
+	@SuppressWarnings("unchecked")
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ArrayList a=new ArrayList();
+		a.add(45);
+		a.add(55);
+		a.add(10);
+		Collections.sort(a);
+		
+		@SuppressWarnings("unchecked")
+		int index =Collections.binarySearch(a,20);
+		System.out.println(a.get(index));
+	}
+
+}

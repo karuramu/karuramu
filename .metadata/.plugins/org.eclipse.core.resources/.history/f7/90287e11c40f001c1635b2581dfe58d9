@@ -1,0 +1,13 @@
+package staticinnerclass;
+
+public class A {
+	static class B{
+		static int s;
+		int k=89;
+	}
+public static void main(String[] args) {
+	B a1=new B();
+	System.out.println(B.s);
+	System.out.println(a1.k);
+}
+}

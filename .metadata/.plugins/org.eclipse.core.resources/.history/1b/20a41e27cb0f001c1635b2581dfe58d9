@@ -1,0 +1,16 @@
+package anonymous;
+
+public class A {
+	/*
+	 * class without any name is know as anonymous class
+	 */
+	public static void main(String[] args) {
+B a1 =new B() {
+	
+	public void test() {
+	System.out.println("from test") ;
+	System.out.println(i);
+	}
+};
+	}
+}

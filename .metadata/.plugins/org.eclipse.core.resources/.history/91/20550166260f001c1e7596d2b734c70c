@@ -1,0 +1,19 @@
+package queue;
+
+import java.util.PriorityQueue;
+
+public class C {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		PriorityQueue q= new PriorityQueue();
+		q.add(10);
+		q.add(25);
+		q.add(100);
+		q.add(752);
+		System.out.println(q.peek()); 
+		)
+
+	}
+
+}

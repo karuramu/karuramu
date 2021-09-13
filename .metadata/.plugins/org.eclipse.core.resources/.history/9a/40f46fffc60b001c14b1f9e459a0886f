@@ -1,0 +1,16 @@
+package list;
+/*                    list
+ * its an interface
+ * maintains insertion order
+ * allows duplicate data
+ * list consists of array list and linked list
+ *                    Array list
+ * it can contain duplicate items
+ * it maintains insertion order
+ * allow random access of data
+ * Internally it is implements dynamic array
+ * 
+ */
+public class A {
+// exp of array list
+}

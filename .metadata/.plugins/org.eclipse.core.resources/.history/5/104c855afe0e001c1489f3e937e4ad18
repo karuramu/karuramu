@@ -1,0 +1,13 @@
+package queue;
+/*
+ * Queue
+ * The Queue  interface basically order the element of FIFO(first in first out )manner
+ */
+public class A {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

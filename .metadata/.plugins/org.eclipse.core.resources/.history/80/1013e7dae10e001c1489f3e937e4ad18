@@ -1,0 +1,24 @@
+package set;
+
+/*set is always non repetitive data( similar data type will not present in set)
+ * sorting is not possible
+ *                    set
+ *                     |
+ *             ----------------
+ *            |               |
+ *          hashset         Treeset
+ *  set- it's is interface
+ *  does not maintain any  insertion order
+ *  cannot contain  duplicate values
+ *  HASHset-uses hash table internally
+ *  will contain unique elements  
+ *  Dose not maintain  insertion order
+ */
+public class A {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

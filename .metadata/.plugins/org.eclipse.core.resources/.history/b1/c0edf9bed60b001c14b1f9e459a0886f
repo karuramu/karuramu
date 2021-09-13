@@ -1,0 +1,19 @@
+package collectionsexp;
+
+import java.util.ArrayList;
+
+public class D {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ArrayList a=new ArrayList();
+		a.add(55);
+		a.add(65);
+		a.add(75);
+		ArrayList c=new ArrayList();
+c.add(65);
+c.add(75);
+System.out.println(a.containsAll(c));
+	}
+
+}

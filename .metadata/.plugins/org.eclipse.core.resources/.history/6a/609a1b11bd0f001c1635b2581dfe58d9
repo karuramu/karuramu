@@ -1,0 +1,25 @@
+package innerclass;
+// below rules is applied for only for local inner class
+
+
+public class B1 {
+	class A1
+	{
+		int i = 10;
+		/*we can use method also public void test(){
+		 * syso("from");}
+		 *  we can't create static variable & method in inner class (static int q=90;)
+		 */
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		B1 b1=new B1();
+		A1 a1 = b1. new A1();
+		System.out.println(a1.i);
+		// a1.test() for calling the method
+	}
+/*inner class gives us better security
+ * we can't create static members  in  local inner class both variables and methods 
+ */
+}

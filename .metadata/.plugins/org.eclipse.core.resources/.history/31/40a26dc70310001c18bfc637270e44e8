@@ -1,0 +1,8 @@
+package multitasking;
+/* threads - multitasking done at the prog level is called has threads
+ * threads can be create by two types 1-thread level
+ *                                    2- interface runable
+ */
+public class A {
+
+}

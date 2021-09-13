@@ -1,0 +1,23 @@
+package anonymous;
+
+public class A {
+	//class C{
+//	int o =25;}
+	/*
+	 * class without any name is know as anonymous class
+	 */
+	public static void main(String[] args) {
+		A a =new A();
+C a1 =new C() {
+	
+	public void test() {
+	System.out.println("from test") ;
+	//System.out.println(i);
+	}
+};
+a1.test();
+//System.out.println(a1.o);
+
+
+	}
+}

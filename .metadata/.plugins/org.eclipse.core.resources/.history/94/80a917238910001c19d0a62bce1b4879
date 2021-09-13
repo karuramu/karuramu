@@ -1,0 +1,47 @@
+package threadsynchronzie;
+
+public class C {
+	
+		int balance;
+
+		public static void main(String[] args) {
+			C a1 = new C();
+			a1.account();
+			System.out.println(a1.balance);
+		}
+
+		public void account() {
+			Thread t1 = new Thread(new Runnable() {
+				public void run() {
+					add();// this.add();
+				}
+			});
+			Thread t2 = new Thread(new Runnable() {
+				public void run() {
+					sub();// this.sub();
+				}
+			});
+			t1.start();
+			t2.start();
+			try {
+				t1.join();
+				t2.join();
+			}catch(Exception n) {
+				System.out.println(n);
+			}
+		}
+
+		public void synchronized add() {
+			for (int i = 0; i <= 1000; i++) {
+				balance = balance + i;
+			}
+
+		}
+
+		public void synchronized sub() {
+			for (int i = 0; i <= 1000; i++) {
+				balance = balance - i;
+			}
+		}
+	}
+

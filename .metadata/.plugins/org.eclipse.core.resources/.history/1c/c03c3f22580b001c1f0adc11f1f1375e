@@ -1,0 +1,12 @@
+package list;
+/*                    list
+ * its an interface
+ * maintains insertion order
+ * allows duplicate data
+ *                    Array list
+ * 
+ * 
+ */
+public class A {
+
+}

@@ -1,0 +1,6 @@
+package anonymous;
+
+public interface B {
+public void test();
+int i=10;
+}

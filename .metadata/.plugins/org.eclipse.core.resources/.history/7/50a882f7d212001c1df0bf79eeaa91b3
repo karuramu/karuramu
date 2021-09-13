@@ -1,0 +1,17 @@
+package generics;
+
+public class C<K> {
+
+	K i;
+	C a1;
+	public K test() {
+		a1=new C();
+		a1.i=30;
+		return i;
+	}
+	public static void main(String[] args) {
+		C a2= new C();
+		a2.test();
+			System.out.println(a2.i);
+	}
+}

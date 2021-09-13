@@ -1,0 +1,18 @@
+package set;
+
+/*set is always non repetitive data( similar data type will not present in set)
+ * sorting is not possible
+ *                    set
+ *                     |
+ *             ----------------
+ *            |               |
+ *          hasset         Treeset
+ */
+public class A {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

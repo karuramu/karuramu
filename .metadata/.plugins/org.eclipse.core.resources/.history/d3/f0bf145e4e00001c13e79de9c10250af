@@ -1,0 +1,18 @@
+package constructor;
+
+public class C  {
+	//constructor should have same name as that of class
+	//constructor will exc when the object is created is below example and flow is same as method
+		//Constructor
+	C(){
+			System.out.println("same flow as method");
+
+		}
+			public static void main() {
+		new C();//creating a object that means creating a constructor
+			}
+		
+		}
+		
+
+

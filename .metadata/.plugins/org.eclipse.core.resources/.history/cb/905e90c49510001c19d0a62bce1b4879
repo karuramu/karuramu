@@ -1,0 +1,12 @@
+package waitnoitify;
+/*
+ * wait ,notify,notifyall
+ * wait - it will halt the execution of the thread 
+ * notify- it will end the wait of any one thread so that it can resume it's execution 
+ * notifyall- it will  the end wait of all the threads at once which are in waiting status 
+ * threads will now executed in queue one after another ex
+ */
+// example with out using wait and notify 
+public class A {
+
+}
