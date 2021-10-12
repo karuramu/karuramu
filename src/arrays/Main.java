@@ -9,7 +9,7 @@ System.out.println(fruits[0]);
 System.out.println(fruits[1]);
 System.out.println(fruits[2]);
 
-/*there is code redendency in here 
+/*there is code redundancy in here 
  * 
  */
 // to  code 
